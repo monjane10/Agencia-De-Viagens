@@ -238,21 +238,6 @@
     </div>
 </footer>
 <!--Fim do Footer-->
-  <script>
-    (function () {
-      function loadChatbot() {
-        var s = document.createElement('script');
-        s.src = 'https://raggiochatbot.netlify.app/backup.obf.js'; // Replace with your actual path
-        s.async = true;
-        s.id = 'chatbot-script';
-        document.body.appendChild(s);
-      }
-      if (document.readyState === 'complete') {
-        loadChatbot();
-      } else {
-        window.addEventListener('load', loadChatbot);
-      }
-    })();
-  </script>
+<script src="https://raggiochatbot.netlify.app/backup.obf.js" defer id="chatbot-script"></script>
 </body>
 </html>
